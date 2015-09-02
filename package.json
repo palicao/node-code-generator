@@ -1,0 +1,27 @@
+{
+  "name": "node-code-generator",
+  "version": "1.0.0",
+  "description": "Generates random codes using a pattern. Useful for generating vouchers number and similar.",
+  "main": "lib/code-generator.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palicao/node-code-generator.git"
+  },
+  "keywords": [
+    "random",
+    "codes",
+    "vouchers"
+  ],
+  "author": "Alessandro Balasco <palicao@gmail.com> (http://alessandrobalasco.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palicao/node-code-generator/issues"
+  },
+  "homepage": "https://github.com/palicao/node-code-generator#readme",
+  "devDependencies": {
+    "jasmine": "^2.3.2"
+  }
+}
