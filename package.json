@@ -1,6 +1,6 @@
 {
   "name": "node-code-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates random codes using a pattern. Useful for generating vouchers number and similar.",
   "main": "lib/code-generator.js",
   "scripts": {
