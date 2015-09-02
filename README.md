@@ -1,5 +1,8 @@
 # CodeGenerator
 
+[![npm version](https://badge.fury.io/js/node-code-generator.svg)](http://badge.fury.io/js/node-code-generator)
+![build](https://api.travis-ci.org/palicao/node-code-generator.svg?branch=master)
+
 ## Installation
 
 ```bash
