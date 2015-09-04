@@ -4,7 +4,8 @@
   "description": "Generates random codes using a pattern. Useful for generating vouchers number and similar.",
   "main": "lib/code-generator.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "test-coverage": "`npm bin`/istanbul cover `npm bin`/jasmine"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/palicao/node-code-generator#readme",
   "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.19",
     "jasmine": "^2.3.2"
   }
 }

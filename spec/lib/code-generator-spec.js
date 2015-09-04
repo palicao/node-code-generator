@@ -91,7 +91,7 @@ describe('CodeGenerator', function () {
   });
 
   it('creates fixed lenght codes sparsely', function () {
-    var codes = cg.generateCodes('##', 66, {sparsity: 1.5});
+    var codes = cg.generateCodes('#*', 66, {sparsity: 1.5});
     expect(codes.length).toBe(66);
 
     expect(function () {
@@ -103,6 +103,13 @@ describe('CodeGenerator', function () {
     var codes = cg.generateCodes('#+', 10, {sparsity: 2});
     codes.forEach(function(code) {
       expect(code.length).toBe(2);
+    });
+  });
+
+  it('considers sparsity < 1 as = 1', function () {
+   var codes = cg.generateCodes('#+', 10, {sparsity: .1});
+    codes.forEach(function(code) {
+      expect(code.length).toBe(1);
     });
   });
 

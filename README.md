@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/node-code-generator.svg)](http://badge.fury.io/js/node-code-generator)
 ![build](https://api.travis-ci.org/palicao/node-code-generator.svg?branch=master)
+[![coverage](https://coveralls.io/repos/palicao/node-code-generator/badge.svg?branch=master&service=github)](https://coveralls.io/github/palicao/node-code-generator?branch=master)
 
 ## Installation
 
