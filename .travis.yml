@@ -5,4 +5,4 @@ node_js:
   - "iojs"
   - "iojs-v1.0.4"
 script: "npm run-script test-coverage"
-after_script: "./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -R ./coverage"
+after_script: "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -R ./coverage"
