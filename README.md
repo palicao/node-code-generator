@@ -1,5 +1,7 @@
 # CodeGenerator
 
+[![Join the chat at https://gitter.im/palicao/node-code-generator](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/palicao/node-code-generator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![npm version](https://badge.fury.io/js/node-code-generator.svg)](http://badge.fury.io/js/node-code-generator)
 ![build](https://api.travis-ci.org/palicao/node-code-generator.svg?branch=master)
 [![coverage](https://coveralls.io/repos/palicao/node-code-generator/badge.svg?branch=master&service=github)](https://coveralls.io/github/palicao/node-code-generator?branch=master)
